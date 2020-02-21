@@ -11,6 +11,7 @@ h2{
     font-size: 40px;
     padding-top: 100px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .tomato-highlighter{
@@ -32,7 +33,7 @@ h2{
 .top-banner{
     background-image: url("Images/header-bg.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 700px;
     
 }
@@ -57,7 +58,29 @@ h2{
 .biography-banner{
     background-image: url("Images/biography-bg.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    border: 2px solid red;
     height: 800px;
+    background-size: 100% 100%;
+}
+
+.latest-work{
+    text-align: center;
+}
+
+
+.work-image-width{
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.work-image-width img{
+    width: 100%;
+}
+
+.latest-work-banner{
+    background-image: url("Images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100% 100%;
 }
